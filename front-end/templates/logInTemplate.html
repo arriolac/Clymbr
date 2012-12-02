@@ -1,2 +1,21 @@
 <header id="header"></header>
-<p>You've reached the log-in page!</p>
+<div class="login">
+  <form id="login-form">
+    <legend>Log In</legend>
+    <div class="error" style="display:none"></div>
+    <input type="text" id="login-username" placeholder="Username" />
+    <input type="password" id="login-password" placeholder="Password" />
+    <button type="submit" class="btn">Log In</button>
+  </form>
+
+  <form id="signup-form">
+    <fieldset>
+      <legend>Sign Up</legend>
+      <div class="error" style="display:none"></div>
+      <input type="text" id="signup-username" placeholder="Username" />
+      <input type="text" id="signup-email" placeholder="Email" />
+      <input type="password" id="signup-password" placeholder="Create a Password" />
+      <button type="submit" class="btn">Sign Up</button>
+    </fieldset>
+  </form>
+</div>

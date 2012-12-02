@@ -9,8 +9,8 @@ define([
 ], function($, _, Backbone, logInTemplate) {
     var LogInView = Backbone.View.extend({
         events: {
-            "submit form.login-form": "logIn",
-            "submit form.signup-form": "signUp"
+            "submit form#login-form": "logIn",
+            "submit form#signup-form": "signUp"
         },
 
         el: ".content",
@@ -27,10 +27,12 @@ define([
 
         logIn: function(e) {
             // TODO: after the casal builds
+            console.log("log-in");
         },
 
         signUp: function(e) {
             // TODO: after the casal builds
+            console.log("sign-up");
         }
     });
 
