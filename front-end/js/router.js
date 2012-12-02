@@ -6,7 +6,7 @@ define([
     'backbone',
     'views/LoginView'
 ], function(Backbone, LoginView) {
-    var Router = Backbone.Router.extend({
+    var AppRouter = Backbone.Router.extend({
         routes: {
             "" : "login",
         },
@@ -17,7 +17,7 @@ define([
     });
 
     var initialize = function() {
-        var router = new Router();
+        var router = new AppRouter();
         Backbone.history.start();
     };
 
