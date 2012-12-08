@@ -13,6 +13,7 @@
     border: 1px solid #DDD;
     border-radius: 4px;
     padding: 10px 45px;
+    background: rgba(75, 202, 253, 0.04);
 }
 
 #clymbr-app .content .profile-edit {
