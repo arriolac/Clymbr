@@ -1,5 +1,6 @@
 *.swp
 
+#Rails Ignore
 *.rbc
 *.sassc
 .sass-cache
