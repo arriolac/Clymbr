@@ -17,9 +17,19 @@
 }
 
 #clymbr-app .content .profile-edit {
-    width: 250px;
+    width: 500px;
     margin: 45px auto 25px auto;
     border: 1px solid #DDD;
     border-radius: 4px;
     padding: 10px 45px;
+}
+
+#clymbr-app .content .profile-edit .personal-info {
+    width: 250px;
+    float: left;
+}
+
+#clymbr-app .content .profile-edit .climbing-locations-container {
+    width: 250px;
+    float: right;
 }
